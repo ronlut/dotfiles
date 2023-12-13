@@ -1,0 +1,13 @@
+[user]
+	name = Rony Lutsky
+	email = 3050627+ronlut@users.noreply.github.com
+
+[url "git@gitlab.com:"]
+    insteadof = https://gitlab.com/
+
+# example
+#[includeIf "gitdir:~/dev/companyA/**"]
+#    path = .gitconfig-companyA
+
+[init]
+	defaultBranch = main
