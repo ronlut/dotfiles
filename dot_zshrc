@@ -93,6 +93,9 @@ plugins=(
 
 ### User Configuration before sourcing ###
 
+# disable omz update - chezmoi takes care of that
+DISABLE_AUTO_UPDATE="true"
+
 # FZF plugin - excludes global ignores defined here "~/.config/fd/ignore"
 FZF_DEFAULT_COMMAND="fd --strip-cwd-prefix --type f --follow"
 FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
