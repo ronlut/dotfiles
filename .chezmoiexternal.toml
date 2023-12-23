@@ -27,3 +27,10 @@
     url = "https://github.com/romkatv/powerlevel10k/archive/v1.19.0.tar.gz"
     exact = true
     stripComponents = 1
+["Library/Fonts"]
+    type = "archive"
+    url = "https://github.com/romkatv/powerlevel10k-media/archive/master.tar.gz"
+    exact = false
+    stripComponents = 1
+    refreshPeriod = "168h"
+    include = ["*/*.ttf"]
