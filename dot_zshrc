@@ -82,12 +82,13 @@ plugins=(
 	zsh-autosuggestions
 	#kubectl
 	#aws
+        #gcloud
         #docker
 	fzf
 	#terraform
         #helm
 	zsh-syntax-highlighting
-        brew
+        #brew
         zsh-nvm
 )
 
