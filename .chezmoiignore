@@ -1,2 +1,7 @@
 .oh-my-zsh/cache/
 **/*.zwc
+{{- if ne .vcs_type "git" }}
+.gitconfig*
+.ssh/
+{{- end }}
+README.md

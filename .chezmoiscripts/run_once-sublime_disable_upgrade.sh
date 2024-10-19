@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # Disable Sublime upgrade dialog on macOS unless it already is disabled
 
+# exit if sublime is not installed
+type subl >/dev/null 2>&1 || exit
+
 # Run this script as sudo. Ref: https://unix.stackexchange.com/a/28794/19909
 test "$EUID" -eq 0 || exec sudo bash "$0" "$@"
 

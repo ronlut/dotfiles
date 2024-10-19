@@ -1,0 +1,8 @@
+{{- $vcs := promptChoiceOnce . "vcs" "vcs" (list "git" "other") -}}
+{{- $vcs_email := promptString "vcs email" "3050627+ronlut@users.noreply.github.com" -}}
+{{- $package_manager := promptChoiceOnce . "package_manager" "package manager" (list "homebrew" "macports") "homebrew" -}}
+
+data:
+    vcs_type: {{ $vcs | quote }}
+    vcs_email: {{ $vcs_email | quote }}
+    package_manager: {{ $package_manager | quote }}
