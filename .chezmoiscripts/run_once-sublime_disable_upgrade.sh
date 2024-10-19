@@ -2,7 +2,7 @@
 # Disable Sublime upgrade dialog on macOS unless it already is disabled
 
 # exit if sublime is not installed
-type subl >/dev/null 2>&1 || exit
+type subl >/dev/null 2>&1 || exit 0
 
 HOSTS_FILE=/etc/hosts
 SCRIPT_NAME=$(basename "$0")
