@@ -2,10 +2,8 @@ packages:
   darwin:
     brews: 
       - maccy
-      - wget
     casks: 
       - 1password
       - 1password-cli
     ports: 
       - 1password-cli
-      - wget
