@@ -5,3 +5,4 @@
 .ssh/
 {{- end }}
 README.md
+install.sh

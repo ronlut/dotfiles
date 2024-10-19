@@ -4,9 +4,6 @@
 # exit if sublime is not installed
 type subl >/dev/null 2>&1 || exit
 
-# Run this script as sudo. Ref: https://unix.stackexchange.com/a/28794/19909
-test "$EUID" -eq 0 || exec sudo bash "$0" "$@"
-
 HOSTS_FILE=/etc/hosts
 SCRIPT_NAME=$(basename "$0")
 
@@ -23,7 +20,7 @@ if grep -q "license.sublimehq.com" "$HOSTS_FILE"; then
 else
 	cp $HOSTS_FILE ${HOSTS_FILE}.${timestamp}.bak
 	echo -e "$ADDED_HOSTS" | cat $HOSTS_FILE - > ${HOSTS_FILE}.new
-	mv ${HOSTS_FILE}.new $HOSTS_FILE
+	sudo mv ${HOSTS_FILE}.new $HOSTS_FILE
 
 	echo "Sublime upgrade dialog is now disabled."
 fi
