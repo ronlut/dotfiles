@@ -7,3 +7,6 @@ vscode:
     - "ibm.output-colorizer"
     - "tamasfe.even-better-toml"
     - "yzhang.markdown-all-in-one"
+    - "usernamehw.errorlens"
+    - "oderwat.indent-rainbow"
+    - "pkief.material-icon-theme"
