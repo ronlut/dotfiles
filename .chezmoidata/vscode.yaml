@@ -1,0 +1,9 @@
+vscode:
+  extensions:
+    - "eamodio.gitlens"
+    - "redhat.vscode-yaml"
+    - "mhutchie.git-graph"
+    - "johnpapa.vscode-peacock"
+    - "ibm.output-colorizer"
+    - "tamasfe.even-better-toml"
+    - "yzhang.markdown-all-in-one"

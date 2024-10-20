@@ -1,9 +1,7 @@
 packages:
   darwin:
     brews: 
-      - maccy
+      - bat
     casks: 
-      - 1password
-      - 1password-cli
-    ports: 
-      - 1password-cli
+      - maccy
+      - visual-studio-code
