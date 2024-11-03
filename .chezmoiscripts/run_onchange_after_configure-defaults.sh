@@ -4,6 +4,8 @@
 # 1. https://github.com/mathiasbynens/dotfiles/blob/main/.macos
 # 2. https://github.com/twpayne/dotfiles/blob/master/home/.chezmoiscripts/darwin/run_onchange_after_configure-defaults.sh
 # 3. https://macos-defaults.com/
+# 4. https://notrab.dev/posts/friendly-mac-os-defaults/
+# 5. https://mynixos.com/nix-darwin/options/system.defaults
 
 set -eufo pipefail
 
