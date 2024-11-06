@@ -24,6 +24,7 @@ defaults write -g NSAutomaticTextCorrectionEnabled -bool false
 defaults write -g NSDocumentSaveNewDocumentsToCloud -bool false
 defaults write -g NSUserDictionaryReplacementItems '()'
 defaults write -g WebAutomaticSpellingCorrectionEnabled -bool false
+defaults write -g NSAutomaticPeriodSubstitutionEnabled -bool false
 
 defaults write -g com.apple.trackpad.forceClick -bool false
 
