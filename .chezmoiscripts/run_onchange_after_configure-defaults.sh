@@ -40,3 +40,5 @@ defaults write com.apple.finder FXPreferredViewStyle -string Nlsv
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
 defaults write com.apple.finder FXRemoveOldTrashItems -bool true
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+sudo nvram StartupMute=%01
